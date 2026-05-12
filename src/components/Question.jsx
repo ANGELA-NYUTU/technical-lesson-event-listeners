@@ -5,11 +5,11 @@ function Question() {
   }
   return (
     <>
-        <h1> QUESTION HERE </h1>
-        <button onClick={() => handleClick(1)}> Answer 1</button>
-        <button onClick={() => handleClick(2)}> Answer 2</button>
-        <button onClick={() => handleClick(3)}> Answer 3</button>
-        <button onClick={() => handleClick(4)}> Answer 4</button>
+        <h1> Whats on your bucket list? </h1>
+        <button onClick={() => handleClick(1)}> Learning how to code </button>
+        <button onClick={() => handleClick(2)}> Travel to Maldives </button>
+        <button onClick={() => handleClick(3)}> Adventure to New Zealand </button>
+        <button onClick={() => handleClick(4)}> Relaxation and Wellness in Hawaii </button>
     </>
   );
 }
